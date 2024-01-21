@@ -1,4 +1,4 @@
-function results = donDABplaqueArea(I)
+function results = sixE10Area(I)
 % AUTHOR: NIHAL SATYADEV
 % Function defines area stained by 6E10 (Plaques)
 % Calculates total stain as well as individual stain areas
@@ -8,7 +8,7 @@ px2um = 0.4527
 
 %CALCULATESTAINS
 croppedI = whiteClear1(I);
-plaqueI = donDABMask1(I);
+plaqueI = sixE10Mask_final(I);
 
 % 
 props = regionprops("table",croppedI,"Area");

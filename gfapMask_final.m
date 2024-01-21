@@ -1,4 +1,4 @@
-function [BW,maskedRGBImage] = donGFAPMask1(RGB)
+function [BW,maskedRGBImage] = gfapMask_final(RGB)
 %Mask for DAB stain for astrocytes by Don
 
 %createMask  Threshold RGB image using auto-generated code from colorThresholder app.

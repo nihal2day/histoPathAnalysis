@@ -10,7 +10,7 @@ px2um = 0.4527
 
 %Masks created to remove white background and define stain
 croppedI = whiteClear1(I);
-lampI = lamp1Mask_updated_final(I);
+lampI = lamp1Mask_final(I);
 %lamp1Mask_updated was changed to current threshold
 
 props = regionprops("table",croppedI,"Area")
