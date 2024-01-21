@@ -11,7 +11,7 @@ xxxMask_final.m -- creates threshold for isolating xxx stain using MATLAB "color
 
 xxxArea.m -- calculates the area for xxx stain in micron squared and as a % of the total brain region
 
-NEED TO ADD ONE PHOTO OF EACH STAIN
+1yr AAV con xxx.tif -- sample images to use to run code
 
 ### System requirements
 Operates on PC or MAC
@@ -25,7 +25,7 @@ MATLAB can be expected to be installed within 10 minutes
 2. Locate files
 3. Place images on top right panel
 4. Utilize command prompt to run xxxArea.m with associated image. Sample code below
->> lamp1Area(IMAGENAME.jpg)
+>> lamp1Area(IMAGENAME.tif)
 5. Expected output: values associated with the amount of area stained for given file
 6. Expected runtime: 30seconds to 5 minutes for single image
 
